@@ -1,0 +1,49 @@
+
+@font-face {
+	font-family: 'Neuland Grotesk';
+	src:	url('../fonts/NeulandGroteskCondensedLight.eot');
+	src:	url('../fonts/NeulandGroteskCondensedLight.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/NeulandGroteskCondensedLight.woff') format('woff'),
+			url('../fonts/NeulandGroteskCondensedLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'YouDecide M';
+	src:	url('../fonts/YouDecideM-LayerTwo.eot');
+	src:	url('../fonts/YouDecideM-LayerTwo.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/YouDecideM-LayerTwo.woff') format('woff'),
+			url('../fonts/YouDecideM-LayerTwo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	position: relative;
+	width: 100%;
+  	background-color: #000;
+  	margin: 0; padding:  0; border:  none;
+
+  	font-family: 'Neuland Grotesk';
+    font-weight: bold;
+    font-style: normal;
+} 
+
+#benson-hedges {
+	position: relative;
+  	max-width: 1024px;
+  	width: 100%; height: auto;
+  	margin: auto;
+}
+
+
+#btn_close{
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: calc(100% - 10px); top: 10px;
+	z-index: 100;
+	width: 25px; height: 25px;
+	background: url('icon-close.png') no-repeat center;
+	background-size: contain;
+}
